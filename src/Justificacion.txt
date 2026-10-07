@@ -1,0 +1,6 @@
+Ejercicio
+
+Al no estar sincronizados los hilos van aumentando la variable pero sin ningún tipo de orden,
+el resultado era el que esperaba no hay orden y cada vez que ejecuto el programa tengo un resultado
+distinto, para que primero fuera un hilo y luego otro tendría que sincronizarlos y añadir un wait
+para que espere a que termine un hilo antes de acceder a la misma variable
