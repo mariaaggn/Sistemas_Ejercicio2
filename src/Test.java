@@ -9,6 +9,5 @@ public class Test {
         Thread t2 = new Thread(hilo2);
         t1.start();
         t2.start();
-        
     }
 }

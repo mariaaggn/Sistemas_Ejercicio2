@@ -13,5 +13,4 @@ public class Hilo implements Runnable{
     public Hilo(VariableCompartida compartida) {
         this.compartida = compartida;
     }
-
 }
